@@ -1,0 +1,62 @@
+{
+    "name": "peer-cash",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@mui/material": "^5.11.12",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.18.15",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "@walletconnect/web3wallet": "^1.4.0",
+        "@web3modal/ethereum": "^2.2.0",
+        "@web3modal/react": "^2.2.0",
+        "ethers": "5.7.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1",
+        "typescript": "^4.9.5",
+        "wagmi": "^0.12.1",
+        "web-vitals": "^2.1.4",
+        "axios": "^0.19.2",
+        "circom": "^0.0.35",
+        "fixed-merkle-tree": "^0.6.0",
+        "circomlib": "git+https://github.com/tornadocash/circomlib.git",
+        "snarkjs": "git+https://github.com/tornadocash/snarkjs.git",
+        "websnark": "git+https://github.com/tornadocash/websnark.git",
+        "notistack": "3.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browser": {
+        "crypto": false,
+        "stream": false
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

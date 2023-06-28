@@ -1,0 +1,159 @@
+.main-container {
+    max-width: 1680px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 13px;
+    box-sizing: border-box;
+}
+
+.component {
+    background: #181818;
+}
+
+.lighter-component {
+    background: #212121;
+}
+
+.lighter-border {
+    border-color: #383838 !important;
+}
+
+.vertical-line {
+    border-left: 1px solid #212121;
+    border-right: 1px solid #212121;
+    height: 100%;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.green-text {
+    color: #9BE0A6;
+}
+
+.gray-text {
+    color: #B8B8B8;
+}
+
+.gray-text-2 {
+    color: #383838;
+}
+
+.gradient-bordered-component {
+    background: linear-gradient(to right, #E0D29B 15%, #EBE4C6 15%, #D55292 50%, #8779DE);
+}
+
+.connect-button {
+    background: #181818 !important;
+    border-radius: 0.5rem !important;
+    text-transform: none !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.connect-button img {
+    height: 30px;
+    vertical-align: middle;
+}
+
+.gradient-text {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*For shape*/
+
+.trapezoid-up {
+    border-bottom: 40px solid #181818;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 55px;
+}
+
+.trapezoid-down {
+    border-top: 40px solid #181818;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 55px;
+}
+
+.lighter-trapezoid {
+    border-bottom-color: #383838;
+    border-top-color: #383838;
+}
+
+.less-dark-trapezoid {
+    border-bottom-color: #1F1F1F;
+    border-top-color: #1F1F1F;
+}
+
+.action-component {
+    background: #1F1F1F;
+}
+
+.tab-button {
+    cursor: pointer;
+}
+
+.MuiStepLabel-iconContainer svg {
+    box-sizing: border-box;
+    border: 3px solid rgba(255, 255, 255, 0.66);
+    color: transparent;
+    border-radius: 50%;
+}
+
+.MuiStepLabel-iconContainer svg * {
+    color: transparent;
+    fill: transparent;
+}
+
+.MuiStepLabel-iconContainer.Mui-active svg circle {
+    fill: rgba(255, 255, 255, 0.66);
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.MuiStepButton-root .MuiStepLabel-alternativeLabel {
+    color: rgba(255, 255, 255, 0.66) !important;
+    margin-top: 0px !important;
+}
+
+.token-select,
+.input-field {
+    color: rgba(255, 255, 255, 0.66) !important;
+    width: 100%;
+    text-align: left;
+}
+
+.token-select fieldset,
+.input-field fieldset {
+    border-color: rgba(255, 255, 255, 0.66) !important;
+    border-radius: 0.5rem;
+}
+
+.token-select svg,
+.input-field input {
+    color: white;
+}
+
+.green-button {
+    background-color: #9BE0A6 !important;
+    border-radius: 0.5rem !important;
+    color: #1F1F1F !important;
+    font-weight: 550 !important;
+    padding: 1em !important;
+    font-size: 18px !important;
+}
+
+.clickable-component {
+    cursor: pointer;
+}
+
+.clickable-component:hover {
+    filter: brightness(1.2);
+}
